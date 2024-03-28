@@ -1,0 +1,125 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    header{
+      width: 186%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .banner1{
+        padding: 17px;
+    }
+
+     .banner1 .row{
+        margin-top: 104px;
+     }
+
+     .banner1 .row h1{
+        font-size: 35px;
+        line-height: 41px;
+     }
+
+     .banner1 .row p{
+        font-size: 19px;
+     }
+
+     .feature{
+        width: 180%;
+        height: 135vh;
+     }
+
+     .feature .row .down{
+        display: grid;
+     }
+    
+     .feature .row .down p{
+        width: 52%;
+        margin-left: 160px;
+     }
+
+     .banner{
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 2px solid #ededed;
+     }
+
+     .banner .row{
+        display: inline;
+     }
+
+     .banner .row .left{
+        margin-left: 95px;
+     }
+
+     .banner .row .right col-sm-12{
+        margin-top: 70px;
+    
+     }
+
+     .banner .row .right .up span{
+
+     }
+
+
+  }
